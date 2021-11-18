@@ -1,0 +1,74 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/user/Documents/OneDrive/VSCode/grbl_atmega328/include",
+                "/Users/user/Documents/OneDrive/VSCode/grbl_atmega328/src",
+                "/Users/user/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/user/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/I2C_EEPROM",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/LedControl/src",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/LinkedList",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/MemoryUsage/src",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/Switch",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/TaskScheduler/src",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/Time",
+                "/private/tmp/platformio_libdeps/grbl_atmega328/Timezone/src",
+                "/Users/user/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/user/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/user/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/user/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/user/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/user/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/user/Documents/OneDrive/VSCode/grbl_atmega328/include",
+                    "/Users/user/Documents/OneDrive/VSCode/grbl_atmega328/src",
+                    "/Users/user/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/user/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/I2C_EEPROM",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/LedControl/src",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/LinkedList",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/MemoryUsage/src",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/Switch",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/TaskScheduler/src",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/Time",
+                    "/private/tmp/platformio_libdeps/grbl_atmega328/Timezone/src",
+                    "/Users/user/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/user/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/user/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/user/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/user/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/user/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/user/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

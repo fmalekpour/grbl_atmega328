@@ -20,6 +20,7 @@
 */
 
 #include "grbl.h"
+#include "fa_manual_control.h"
 
 
 // Declare system global variable structure
@@ -38,6 +39,7 @@ volatile uint8_t sys_rt_exec_accessory_override; // Global realtime executor bit
 
 int main(void)
 {
+	famc_setup();
   // Initialize system upon power-up.
   serial_init();   // Setup serial baud rate and interrupts
   settings_init(); // Load Grbl settings from EEPROM
